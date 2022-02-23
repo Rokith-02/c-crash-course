@@ -5,7 +5,7 @@ void fun(char*a)
         int i,j,count;
         for(i=0;a[i];i++)//it will iterate upto null character
         {
-                for(j=0;j<i;j++)//we have to check up to i. we want to move one after another
+                for(j=0;j<i;j++)//we want to cheak a[i] and a[j] if both same loop get break 
                 {
                         if(a[j]==a[i])
                                 break;
